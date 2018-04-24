@@ -33,20 +33,30 @@
 		<article id="experiencia">
 			<h2>Experiencia</h2>
 			<h3>Mis Características</h3>
-			<video width="320" height="240" controls>
-  			<source src="movie.mp4" type="video/mp4">
-  			<source src="movie.ogg" type="video/ogg">
+			<video width="521" height="273" controls poster="videos/poster.png">
+<!--
+ 			Forma explicada en el video tutorial 
+  			<source src="videos/my_video.mp4" type="video/mp4">
+  			<source src="videos/my_video.webm" type="video/webm">
+  			<source src="videos/my_video.ogg" type="video/ogg">
+-->
+<!--  De esta manera reconoce todos los formatos de video			-->
+				<source src="videos/my_video.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+				<source src="videos/my_video.ogv" type='video/ogg; codecs="theora,vorbis"' />
+				<source src="videos/my_video.webm" type='video/webm; codecs="vp8,vorbis"' />
 				Tu No Soporta estos formatos de Video.
 			</video>
 		</article>
 	</section>
 	<section id="hobbies_actividades">
 		<h2>Hobbies y actividades </h2>
+<!--
 		<audio controls>
 			<source src="horse.ogg" type="audio/ogg">
 			<source src="horse.mp3" type="audio/mpeg">
 			Tu No Soporta estos formatos de Audio.
 		</audio>
+-->
 	</section>
 <footer>
 	<h2>Información de contacto</h2>
