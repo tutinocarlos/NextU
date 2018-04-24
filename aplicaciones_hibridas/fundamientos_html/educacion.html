@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Carlos Tutino">
+	<meta name="description" content="Trabajo Practico Fundamentos HTML">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<header>
+		<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+		 <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+		 <g>
+			<title>Layer 1</title>
+			<text xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="24" id="svg_1" y="42" x="86" stroke-width="0" stroke="#000000" fill="#ff0000">Carlos Tutino</text>
+			<text stroke="#000000" transform="matrix(0.8017371219020646,0,0,0.827586233615875,-2.6743465084022957,8.103446245193481) " xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="24" id="svg_2" y="71.000001" x="113.161647" stroke-width="0" fill="#000000">self - made - web</text>
+			<ellipse ry="6" rx="6" id="svg_3" cy="14.75" cx="170" stroke="#000000" fill="#00ff00"/>
+			<ellipse id="svg_6" ry="6" rx="6" cy="14.5" cx="153.75" stroke="#000000" fill="#ffff00"/>
+			<ellipse stroke="#000000" id="svg_7" ry="6" rx="6" cy="30.75" cx="170.5" fill="#ff0000"/>
+		 </g>
+		</svg>
+	</header>
+	<h1>Curriculum Vitae</h1>
+	<h2>Carlos Tutino</h2>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+	<section id="educacion">
+		<article id="educacion">
+			<h2>Educación</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1993</td>
+						<td>Colegio Santa Isabel</td>
+						<td>San Isidro, Buenos Aires, Argentin</td>
+						<td>SI</td>
+					</tr>
+					<tr>
+						<td>2000</td>
+						<td>Universidad de Buenos Aires</td>
+						<td>Buenos Aires, Argentina</td>
+						<td>NO</td>
+					</tr>
+					<tr>
+						<td>2004</td>
+						<td>Universiad de Avellaneda</td>
+						<td>Avellaneda, Buenos Aires, Argentina</td>
+						<td center>SI</td>
+					</tr>
+					<tr>
+						<td>2008</td>
+						<td>Universiad Siglo XXI</td>
+						<td>Modalidad OnLine, Argentina</td>
+						<td>SI</td>
+					</tr>
+					<tr>
+						<td>2010</td>
+						<td>Universiad Tecnológica Nacional</td>
+						<td>Buenos Aires, Argentina</td>
+						<td>SI</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</section>
+	<section id="add_cursos">
+		<h2>Agregar Educación</h2>
+		<form action="">
+			<strong>Año:</strong>
+			<select name="year">
+				<option value="2000">2000</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+  		</select>
+  		<br><br>
+  		<strong>Institución:</strong>
+			<input type="text" name="isntitucion" required>
+			<br><br>
+			<strong>Lugar:</strong>
+			<textarea name="lugar" rows="5" cols="30"></textarea>
+			<br><br>
+			<strong>Culminó?:</strong>
+			<input type="radio" name="culmino" value="si">Si
+  		<input type="radio" name="culmino" value="no">No<br>
+			<br><br>
+			<input type="submit" value="Enviar">
+		</form> 
+	</section>
+<footer>
+	<h2>Información de contacto</h2>
+	<ul>
+		<li><a href="mailto:tutinocarlos@gmail.com">tutinocarlos@gmail.com</a></li>
+		<li><a href="https://www.facebook.com/tutinocarlos" target="_blank">Facebook</a></li>
+		<li>Tel: +54911 153 118 1453</li>
+	</ul>
+</footer>
+</body>
+</html>
